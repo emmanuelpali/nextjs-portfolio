@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Ellipse from '../../components/Ellipse/Ellipse';
 import { Inter } from 'next/font/google';
 import 'bootstrap/dist/css/bootstrap.css';

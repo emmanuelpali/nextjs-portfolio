@@ -1,7 +1,6 @@
 import Image from "next/image";
 import "./index.css";
 import React from 'react';
-import hikers from "../../public/images/wehikers.png"
 import Ellipse from "../Ellipse/Ellipse";
 import data from "../../utils/data";
 
