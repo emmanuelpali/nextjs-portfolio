@@ -1,0 +1,25 @@
+body {
+  background-color: #02021e;
+}
+
+section {
+  min-height: 80vh;
+}
+.home {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  position: relative;
+}
+
+section h2 {
+  color: #f9d6ac;
+}
+
+.stack{
+  position: relative;
+  color: white;
+  overflow-x: hidden;
+}
+
+

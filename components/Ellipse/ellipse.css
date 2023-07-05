@@ -1,0 +1,12 @@
+.box {
+  background-color: transparent;
+  position: absolute;
+}
+
+.box .ellipse-wrapper {
+  border: 0px none;
+}
+
+.box .ellipse {
+  border-radius: 50px;
+}
