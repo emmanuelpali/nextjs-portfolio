@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <MyContextProvider>
-        <body className="">
+        <body className={inter.className}>
           <Ellipse size="100px" background="linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(121, 176, 232) 100%)" top={5} left={10}/>
           <div className="container">
               {children} 

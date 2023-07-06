@@ -23,10 +23,10 @@ export const MyContextProvider = ({ children }) => {
             y: mousePosition.y -15, 
         },
         text: {
-            height: 70,
-            width: 70,
-            x: mousePosition.x - 75,
-            y: mousePosition.y - 75,
+            height: 50,
+            width: 50,
+            x: mousePosition.x - 55,
+            y: mousePosition.y - 55,
             background: "navy-blue",
             mixBlendMode: "difference"
         }

@@ -10,8 +10,8 @@ export const Label = () => {
   return (
     <div className="label">
 
-      <div className="hello-i-m-emmanuel-wrapper">
-        <h1 onMouseEnter={enterText} onMouseLeave={leaveText} className="hello-i-m-emmanuel">
+      <div className="hello-i-m-emmanuel-wrapper" onMouseEnter={enterText} onMouseLeave={leaveText}>
+        <h1  className="hello-i-m-emmanuel">
           <span className="text-wrapper">
             Hello! <br />
             I’m{" "}

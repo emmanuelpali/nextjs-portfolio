@@ -10,8 +10,8 @@ function ProjectCard() {
   return (
     <>
     {data.map(project => (
-      <Reveal>
-        <div className="cover" key={project.id}>
+      <Reveal key={project.id}>
+        <div className="cover" >
         <div className="row project-card">
           <div className="image-container">
               <Image className="img-fluid"
