@@ -46,11 +46,13 @@
 .project-card .btn {
     background-color: #02021e;
     margin-top: 5px;
+    cursor: none;
 }
 
 .project-card .btn:hover {
     color: white;
     scale: 1.1;
+    cursor: none;
 }
 
 @media only screen and (max-width: 992px) {

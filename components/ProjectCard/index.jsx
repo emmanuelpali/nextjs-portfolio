@@ -2,6 +2,7 @@ import Image from "next/image";
 import "./index.css";
 import React from 'react';
 import Ellipse from "../Ellipse/Ellipse";
+import Reveal from '../Reveal'
 import data from "../../utils/data";
 
 function ProjectCard() {
@@ -9,7 +10,8 @@ function ProjectCard() {
   return (
     <>
     {data.map(project => (
-      <div className="cover" key={project.id}>
+      <Reveal>
+        <div className="cover" key={project.id}>
         <div className="row project-card">
           <div className="image-container">
               <Image className="img-fluid"
@@ -29,6 +31,7 @@ function ProjectCard() {
           </div>
         </div>
     </div>
+      </Reveal>
     ))}
     </>
   )

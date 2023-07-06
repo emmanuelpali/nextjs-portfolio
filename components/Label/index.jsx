@@ -1,12 +1,17 @@
-import React from "react";
+"use client"
+import React, { useContext } from "react";
+import { MyContext } from '../../components/Context/MyContext'
+import { motion, useScroll } from "framer-motion";
 import "./index.css";
 
 export const Label = () => {
+
+  const { enterText, leaveText } = useContext(MyContext)
   return (
     <div className="label">
 
       <div className="hello-i-m-emmanuel-wrapper">
-        <h1 className="hello-i-m-emmanuel">
+        <h1 onMouseEnter={enterText} onMouseLeave={leaveText} className="hello-i-m-emmanuel">
           <span className="text-wrapper">
             Hello! <br />
             I’m{" "}
