@@ -1,7 +1,6 @@
 "use client"
 import React, { useContext } from "react";
 import { MyContext } from '../../components/Context/MyContext'
-import { motion, useScroll } from "framer-motion";
 import "./index.css";
 
 export const Label = () => {
@@ -21,9 +20,9 @@ export const Label = () => {
             <br />
           </span>
           <span className="text-wrapper-2">
-            A full-stack Developer who enjoys&nbsp;&nbsp;solving business problems and building&nbsp;&nbsp;
+            A full-stack Developer. 
             <br />
-            aesthetically pleasing user-interfaces
+            Solving business problems and building aesthetically pleasing user-interfaces is what I love doing.
           </span>
         </h1>
       </div>

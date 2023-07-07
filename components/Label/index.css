@@ -26,7 +26,6 @@
   
   .label .hello-i-m-emmanuel {
     color: transparent;
-    font-family: "Inter-Bold", Helvetica;
     font-size: 25px;
     font-weight: 600;
     letter-spacing: 0;
@@ -34,6 +33,7 @@
     margin: 0 auto;
     width: 70vw;
     max-width: 400px;
+    margin-bottom: 10px;
   }
   
   .label .text-wrapper {
