@@ -31,7 +31,7 @@ export default function ParallaxText({ children, baseVelocity = 100 }) {
    * calculate
    */
   
-  const x = useTransform(baseX, (v) => `${wrap(0, 100, v)}%`);
+  const x = useTransform(baseX, (v) => `${wrap(0, 80, v)}%`);
 
   const directionFactor = useRef(1);
   useAnimationFrame((t, delta) => {

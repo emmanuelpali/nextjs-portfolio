@@ -1,4 +1,7 @@
-
+.parallax {
+    width: 50vw;
+    margin: 0 auto;
+}
 .stack-pill {
     border: 1px solid rgba(255, 255, 255, 0.05);
     background: linear-gradient(180deg, rgba(55, 25, 202, 0.3) 0%, rgba(55, 25, 202, 0) 100%);
