@@ -9,7 +9,8 @@ import CircleRec from '../../components/CircleRec';
 import Ellipse from '../../components/Ellipse/Ellipse';
 import ProjectCard from '../../components/ProjectCard';
 import ParallaxText from '../../components/InfiniteLoop';
-import Contact from '../../components/Contact';
+import Contact from '../../components/Contact/Contact';
+
 
 export default function Home() {
 
