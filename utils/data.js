@@ -5,6 +5,17 @@ import reactPortImg from "../public/images/portfolio.png";
 
 const portfolioContent = [
   {
+    id: 4,
+    thumb: travel,
+    alt: "",
+    appName: "Travel Experts",
+    shortDescription:
+      `In this .NET MVC application, I took the lead in tasks related to database scaffolding, design, and styling, as well as providing support to my team. I leveraged the power of Microsoft SQL Server and SQL to ensure efficient data management.`,
+    description:
+      `To enhance the user interface, I combined the flexibility of CSS with the user-friendly features of Bootstrap, resulting in a captivating and responsive web application. By blending these technologies, I aimed to create an engaging user experience while maintaining ease of use and visual appeal. Hosted on Azure`,
+    webAddress: `https://travelexperts.azurewebsites.net/`,
+  },
+  {
     id: 1,
     thumb: reactPortImg,
     alt: "",
@@ -37,17 +48,7 @@ const portfolioContent = [
       `Additionally, the application followed continuous integration and deployment (CI/CD) practices, automatically redeploying from the GitHub repository whenever new code was pushed. The project was developed in alignment with the specific specifications provided by the employer, showcasing the ability to quickly deliver a functional solution within a limited timeframe`,
     webAddress: "https://movies-mu-sand.vercel.app/",
   },
-  {
-    id: 4,
-    thumb: travel,
-    alt: "",
-    appName: "Travel Experts",
-    shortDescription:
-      `In this .NET MVC application, I took the lead in tasks related to database scaffolding, design, and styling, as well as providing support to my team. I leveraged the power of Microsoft SQL Server and SQL to ensure efficient data management.`,
-    description:
-      `To enhance the user interface, I combined the flexibility of CSS with the user-friendly features of Bootstrap, resulting in a captivating and responsive web application. By blending these technologies, I aimed to create an engaging user experience while maintaining ease of use and visual appeal.`,
-    webAddress: `https://github.com/emmanuelpali/TravelExperts-2`,
-  },
+
 
 
  
