@@ -4,17 +4,7 @@ import movies from "../public/images/movies.png";
 import reactPortImg from "../public/images/portfolio.png";
 
 const portfolioContent = [
-  {
-    id: 4,
-    thumb: travel,
-    alt: "",
-    appName: "Travel Experts",
-    shortDescription:
-      `In this .NET MVC application, I took the lead in tasks related to database scaffolding, design, and styling, as well as providing support to my team. I leveraged the power of Microsoft SQL Server and SQL to ensure efficient data management.`,
-    description:
-      `To enhance the user interface, I combined the flexibility of CSS with the user-friendly features of Bootstrap, resulting in a captivating and responsive web application. By blending these technologies, I aimed to create an engaging user experience while maintaining ease of use and visual appeal. Hosted on Azure`,
-    webAddress: `https://travelexperts.azurewebsites.net/`,
-  },
+
   {
     id: 1,
     thumb: reactPortImg,
@@ -36,6 +26,17 @@ const portfolioContent = [
     description:
       `Bootstrap played a key role in creating a responsive and visually appealing user interface. As part of the continuous integration and deployment (CI/CD) process, the hosted application is automatically redeployed from my GitHub repository whenever new code is pushed. These tools and frameworks greatly contributed to the overall functionality and user experience of the application.`,
     webAddress: "https://wehikers.onrender.com/",
+  },
+  {
+    id: 4,
+    thumb: travel,
+    alt: "",
+    appName: "Travel Experts",
+    shortDescription:
+      `In this .NET MVC application, I took the lead in tasks related to database scaffolding, design, and styling, as well as providing support to my team. I leveraged the power of Microsoft SQL Server and SQL to ensure efficient data management.`,
+    description:
+      `To enhance the user interface, I combined the flexibility of CSS with the user-friendly features of Bootstrap, resulting in a captivating and responsive web application. By blending these technologies, I aimed to create an engaging user experience while maintaining ease of use and visual appeal. Hosted on Azure`,
+    webAddress: `https://github.com/emmanuelpali/TravelExperts-2`,
   },
   {
     id: 3,
