@@ -2,6 +2,7 @@ import wehikers from "../public/images/wehikers.png";
 import travel from "../public/images/travel.png";
 import movies from "../public/images/movies.png";
 import reactPortImg from "../public/images/portfolio.png";
+import kenyans from "../public/images/kenyans.png";
 
 const portfolioContent = [
 
@@ -28,7 +29,7 @@ const portfolioContent = [
     webAddress: "https://wehikers.onrender.com/",
   },
   {
-    id: 4,
+    id: 3,
     thumb: travel,
     alt: "",
     appName: "Travel Experts",
@@ -39,7 +40,18 @@ const portfolioContent = [
     webAddress: `https://github.com/emmanuelpali/TravelExperts-2`,
   },
   {
-    id: 3,
+    id: 4,
+    thumb: kenyans,
+    alt: "",
+    appName: "KenBC",
+    shortDescription:
+      "This project was developed using WordPress. I worked closely with two stakeholders to produce a website that met thier needs.",
+    description:
+      `In addition to the technical skills involved in building the website, this project gave me an opportunity to continue mastering my communication and collaboration skills plus effective conflict resolution`,
+    webAddress: "https://kenyacommunitybc.org",
+  },
+  {
+    id: 5,
     thumb: movies,
     alt: "",
     appName: "Movies App",
