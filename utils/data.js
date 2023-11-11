@@ -1,32 +1,22 @@
 import wehikers from "../public/images/wehikers.png";
 import travel from "../public/images/travel.png";
+import rs from "../public/images/rs.png";
+import miles from "../public/images/miles&pixels.png";
 import movies from "../public/images/movies.png";
 import reactPortImg from "../public/images/portfolio.png";
 import kenyans from "../public/images/kenyans.png";
 
 const portfolioContent = [
-
   {
-    id: 1,
-    thumb: reactPortImg,
+    id: 7,
+    thumb: rs,
     alt: "",
-    appName: "NextJS Portfolio",
+    appName: "RS Cuisine",
     shortDescription:
-      "I used Figma to design my website prior to starting the development process. Designing the UI was a particularly enjoyable aspect for me, as I had the opportunity to experiment with transparency and gradients to enhance the visual appeal.",
+      "Behold the exquisite restaurant website I crafted for my client. A captivating single-page React application that seamlessly merges elegance and functionality. The goal was to develop a site that allowed customers to view the menu. ",
       description:
-      "To enable continuous integration, I connected AWS Amplify to my GitHub repository, allowing for seamless deployment and updates whenever changes are pushed to the repository. In addition, I utilized Bootstrap and CSS to enhance the website's styling and layout, leveraging their pre-built components and frameworks to streamline the development process.",
+      "I used Bootstrap, the fluidity of Framer Motion, and the personalized touch of vanilla CSS",
     webAddress: "https://www.paliemmanuel.com/",
-  },
-  {
-    id: 2,
-    thumb: wehikers,
-    alt: "",
-    appName: "WeHikers",
-    shortDescription:
-      "During the development process, I gained knowledge in handling image uploads, implementing authentication using Passport.js, and utilizing session and flash messages in Express. To enhance the mapping functionality, I integrated Mapbox into my application.",
-    description:
-      `Bootstrap played a key role in creating a responsive and visually appealing user interface. As part of the continuous integration and deployment (CI/CD) process, the hosted application is automatically redeployed from my GitHub repository whenever new code is pushed. These tools and frameworks greatly contributed to the overall functionality and user experience of the application.`,
-    webAddress: "https://wehikers.onrender.com/",
   },
   {
     id: 3,
@@ -40,7 +30,41 @@ const portfolioContent = [
     webAddress: `https://github.com/emmanuelpali/TravelExperts-2`,
   },
   {
+    id: 6,
+    thumb: miles,
+    alt: "",
+    appName: "Miles&Pixels",
+    shortDescription:
+      "This React application allows registered users upload and share pictures. Hosted on Firebase, this dynamic platform not only showcases stunning pictures but also essential run statistics.",
+      description:
+      "The seamless integration of Google's authentication system ensures a secure and personalized experience for users. Navigating through the application is a breeze, thanks to the implementation of React Router for efficient client-side routing. With a harmonious blend of technology, aesthetics, and user-centric design, this application sets the stage for a vibrant community of running enthusiasts to share and celebrate their achievements",
+    webAddress: "https://milesandpixels.web.app/",
+  },
+  {
+    id: 5,
+    thumb: reactPortImg,
+    alt: "",
+    appName: "NextJS Portfolio",
+    shortDescription:
+      "I used Figma to design this. Designing the UI was a particularly enjoyable aspect for me, as I had the opportunity to experiment with transparency and gradients to enhance the visual appeal.",
+      description:
+      "To enable continuous integration, I connected AWS Amplify to my GitHub repository, allowing for seamless deployment and updates whenever changes are pushed to the repository. In addition, I utilized Bootstrap and CSS to enhance the website's styling and layout, leveraging their pre-built components and frameworks to streamline the development process.",
+    webAddress: "https://www.paliemmanuel.com/",
+  },
+  {
     id: 4,
+    thumb: wehikers,
+    alt: "",
+    appName: "WeHikers",
+    shortDescription:
+      "For this Node/Express app, users can share hiking experiences. I implementing authentication using Passport.js, and utilized session and flash messages in Express. ",
+    description:
+      `To enhance the mapping functionality, I integrated Mapbox into my application. Bootstrap played a key role in creating a responsive and visually appealing user interface. As part of the continuous integration and deployment (CI/CD) process, the hosted application is automatically redeployed from my GitHub repository whenever new code is pushed. These tools and frameworks greatly contributed to the overall functionality and user experience of the application.`,
+    webAddress: "https://wehikers.onrender.com/",
+  },
+
+  {
+    id: 2,
     thumb: kenyans,
     alt: "",
     appName: "KenBC",
@@ -51,7 +75,7 @@ const portfolioContent = [
     webAddress: "https://kenyacommunitybc.org",
   },
   {
-    id: 5,
+    id: 1,
     thumb: movies,
     alt: "",
     appName: "Movies App",
