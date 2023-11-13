@@ -1,6 +1,6 @@
 "use client"
 import React, { useContext } from "react";
-import { MyContext } from '../../components/Context/MyContext'
+import { MyContext } from '../../Context/MyContext'
 import "./index.css";
 
 export const Label = () => {

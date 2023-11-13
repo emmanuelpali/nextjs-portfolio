@@ -1,9 +1,21 @@
 import wehikers from "../public/images/wehikers.png";
 import travel from "../public/images/travel.png";
+import travel1 from "../public/images/travel1.png";
+import travel2 from "../public/images/travel2.png";
+import travel3 from "../public/images/travel3.png";
 import rs from "../public/images/rs.png";
+import rs1 from "../public/images/rs1.png";
+import rs2 from "../public/images/rs2.png";
+import rs3 from "../public/images/rs3.png";
 import miles from "../public/images/miles&pixels.png";
+import miles1 from "../public/images/miles1.png";
+import miles2 from "../public/images/miles2.png";
+import miles3 from "../public/images/miles3.png";
 import movies from "../public/images/movies.png";
 import reactPortImg from "../public/images/portfolio.png";
+import port1 from "../public/images/port1.png";
+import port2 from "../public/images/port2.png";
+import port3 from "../public/images/port3.png";
 import kenyans from "../public/images/kenyans.png";
 
 const portfolioContent = [
@@ -17,6 +29,7 @@ const portfolioContent = [
       description:
       "I used Bootstrap, the fluidity of Framer Motion, and the personalized touch of vanilla CSS",
     webAddress: "https://rs-ashen.vercel.app/",
+    pictures: [rs,rs1,rs2,rs3]
   },
   {
     id: 3,
@@ -28,6 +41,7 @@ const portfolioContent = [
     description:
       `To enhance the user interface, I combined the flexibility of CSS with the user-friendly features of Bootstrap, resulting in a captivating and responsive web application. By blending these technologies, I aimed to create an engaging user experience while maintaining ease of use and visual appeal. Hosted on Azure`,
     webAddress: `https://github.com/emmanuelpali/TravelExperts-2`,
+    pictures: [travel,travel1,travel2,travel3]
   },
   {
     id: 6,
@@ -39,6 +53,7 @@ const portfolioContent = [
       description:
       "The seamless integration of Google's authentication system ensures a secure and personalized experience for users. Navigating through the application is a breeze, thanks to the implementation of React Router for efficient client-side routing. With a harmonious blend of technology, aesthetics, and user-centric design, this application sets the stage for a vibrant community of running enthusiasts to share and celebrate their achievements",
     webAddress: "https://milesandpixels.web.app/",
+    pictures: [miles,miles1,miles2,miles3]
   },
   {
     id: 5,
@@ -50,6 +65,7 @@ const portfolioContent = [
       description:
       "To enable continuous integration, I connected AWS Amplify to my GitHub repository, allowing for seamless deployment and updates whenever changes are pushed to the repository. In addition, I utilized Bootstrap and CSS to enhance the website's styling and layout, leveraging their pre-built components and frameworks to streamline the development process.",
     webAddress: "https://www.paliemmanuel.com/",
+    pictures: [reactPortImg,port1,port2,port3]
   },
   // {
   //   id: 4,

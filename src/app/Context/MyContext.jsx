@@ -10,6 +10,16 @@ export const MyContextProvider = ({ children }) => {
     const [cursorVariants, setCursorVariants] = useState('default');
     const enterText = () => setCursorVariants("text");
     const leaveText = () => setCursorVariants('default')
+    const [display, setDisplay] = useState([])
+    const handleDisplay = (id) => {
+        if(display.includes(id)){
+            setDisplay(display.filter(itemID => itemID !== id))
+        }else{
+            let newDisplayList = [...display]
+            newDisplayList.push(id)
+            setDisplay(newDisplayList)
+        }
+    }
 
     const [mousePosition, setMousePosition] = useState({
         x: 0,
@@ -57,7 +67,9 @@ export const MyContextProvider = ({ children }) => {
         setCursorVariants,
         enterText,
         leaveText,
-        variants
+        variants,
+        display,
+        handleDisplay
     };
   
     // Provide the context values to the child components

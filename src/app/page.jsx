@@ -1,15 +1,15 @@
 "use client"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './page.css';
-import  ProgressBar  from '../../components/ProgressBar'
-import Reveal from '../../components/Reveal'
-import { Label } from '../../components/Label';
-import Cursor from '../../components/Cursor';
-import CircleRec from '../../components/CircleRec';
-import Ellipse from '../../components/Ellipse/Ellipse';
-import ProjectCard from '../../components/ProjectCard';
-import ParallaxText from '../../components/InfiniteLoop';
-import Contact from '../../components/Contact/Contact';
+import  ProgressBar  from './Component/ProgressBar'
+import {Reveal} from './Component/Reveal'
+import { Label } from './Component/Label';
+import Cursor from './Component/Cursor';
+import CircleRec from './Component/CircleRec';
+import Ellipse from './Component/Ellipse';
+import { Projects } from './Component/Projects';
+import ParallaxText from './Component/InfiniteLoop';
+import Contact from './component/Contact/Contact';
 
 
 export default function Home() {
@@ -27,10 +27,7 @@ export default function Home() {
       </section>
       </Reveal>
       <Reveal>
-        <section className='mb-5 px-2 projects'>
-          <h2 className='text-center'>My Projects</h2>
-        <ProjectCard />
-        </section>
+        <Projects />
       </Reveal>
       <section className='stack'>
       <h2 className='text-center mx-auto my-5'>My Stack</h2>

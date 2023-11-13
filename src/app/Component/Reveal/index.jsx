@@ -1,7 +1,7 @@
 import React, {  useRef } from 'react';
 import { motion, useInView } from "framer-motion"
 
-const Reveal = ({ children}) => {
+export const Reveal = ({ children}) => {
     const ref = useRef(null);
     const isInView = useInView(ref, {once: true})
   return (
@@ -19,5 +19,3 @@ const Reveal = ({ children}) => {
 
   )
 }
-
-export default Reveal
