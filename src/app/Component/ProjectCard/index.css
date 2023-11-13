@@ -135,10 +135,7 @@
         display: none;
     }
     .project-card {
-        margin-top: 10%;
-        height: 350px;
-    }
-    .project-card h3 {
-        margin-top: 20%;
+        margin-top: 15%;
+        height: 400px;
     }
 }

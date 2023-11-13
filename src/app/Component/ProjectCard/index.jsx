@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import Ellipse from "../Ellipse";
 import Reveal from "../Reveal";
 import data from "../../../../utils/data";
@@ -9,7 +9,16 @@ import "./index.css";
 
 export default function ProjectCard() {
 	const { display, handleDisplay } = useContext(MyContext);
-	const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0;
+  const [isMac, setisMac] = useState(Boolean)
+  useEffect(() => {
+    // Check for window availability before accessing it
+   setisMac(window && window.navigator.platform.toUpperCase().indexOf('MAC') >= 0)
+
+    
+
+    // Clean up any resources if necessary
+   
+  }, []);
 	return (
 		<>
 			{data.map((project) => (
