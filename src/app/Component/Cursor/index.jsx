@@ -4,7 +4,7 @@ import { MyContext } from '../../Context/MyContext'
 import { motion } from 'framer-motion'
 import './index.css'
 
-function Cursor() {   
+export default function Cursor() {   
     const {cursorVariants, variants} = useContext(MyContext)
 
   return (
@@ -18,4 +18,3 @@ function Cursor() {
   )
 }
 
-export default Cursor

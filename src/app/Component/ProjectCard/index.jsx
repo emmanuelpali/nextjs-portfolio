@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React, { useContext } from "react";
 import Ellipse from "../Ellipse";
-import { Reveal } from '../Reveal'
+import Reveal from '../Reveal'
 import data from "../../../../utils/data";
 import { MyContext } from "../../Context/MyContext";
-import { Looper } from "../Looper";
+import Looper from "../Looper";
 import "./index.css";
 
-function ProjectCard() {
+export default function ProjectCard() {
           const { display, handleDisplay } =  useContext(MyContext)
   return (
     <>
@@ -57,5 +57,3 @@ function ProjectCard() {
     </>
   )
 }
-
-export default ProjectCard

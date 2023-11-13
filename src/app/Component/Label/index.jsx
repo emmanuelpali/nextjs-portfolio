@@ -3,7 +3,7 @@ import React, { useContext } from "react";
 import { MyContext } from '../../Context/MyContext'
 import "./index.css";
 
-export const Label = () => {
+export default function Label(){
 
   const { enterText, leaveText } = useContext(MyContext)
   return (

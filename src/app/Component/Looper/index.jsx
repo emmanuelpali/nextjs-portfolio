@@ -3,7 +3,7 @@ import "./index.css";
 import { useCallback } from "react";
 import { useEffect } from "react";
 
-export const Looper = ({ speed, direction, children }) => {
+export default function Looper({ speed, direction, children }){
     const [looperInstance, setLooperInstance] = useState(1);
     const outerRef = useRef(null);
     const innerRef = useRef(null);
