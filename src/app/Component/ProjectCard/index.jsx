@@ -36,8 +36,8 @@ export default function ProjectCard() {
           <div className="details">
             <div className="details_contents">
               <Looper speed="22" direction="left">
-                {project.pictures.map(image => (
-                  <div className="looper_img"><Image className="img-fluid"
+                {project.pictures.map((image, idx) => (
+                  <div className="looper_img" key={idx}><Image className="img-fluid"
                   src={image}
                   alt="Picture of the project"
                   style={{objectFit: "cover"}}
