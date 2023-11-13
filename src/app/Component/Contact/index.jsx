@@ -4,7 +4,7 @@ import { MdEmail } from "react-icons/md"
 import './index.css'
 
 
-export default function Contact() {
+export const Contact = () => {
   const date = new Date();
   return (
     <div className='page-footer row text-center mx-auto'>
