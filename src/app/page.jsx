@@ -2,14 +2,14 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './page.css';
 import  ProgressBar  from './Component/ProgressBar'
-import {Reveal} from './Component/Reveal'
-import { Label } from './Component/Label';
+import Reveal from './Component/Reveal'
+import Label from './Component/Label';
 import Cursor from './Component/Cursor';
 import CircleRec from './Component/CircleRec';
 import Ellipse from './Component/Ellipse';
-import { Projects } from './Component/Projects';
+import Projects from './Component/Projects';
 import ParallaxText from './Component/InfiniteLoop';
-import { Contact } from './component/Contact';
+import  Contact  from './component/Contact';
 
 
 export default function Home() {
