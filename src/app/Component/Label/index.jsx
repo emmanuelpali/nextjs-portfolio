@@ -22,7 +22,7 @@ export default function Label(){
           <span className="text-wrapper-2">
             A full-stack Developer. 
             <br />
-            I build SQL databases, React/JavaScript/Node and ASP.NET applications.
+            I build SQL databases, React/JavaScript/NodeJS and ASP.NET applications.
           </span>
         </h1>
       </div>

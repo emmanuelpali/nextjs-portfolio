@@ -44,7 +44,7 @@ export default function ProjectCard() {
 									left={80}
 								/>
 								<div className="d-flex justify-content-center">
-									{isMac ? (
+									{isMac && window.innerWidth < 700 ? (
 										<a
 											href={project.webAddress}
 											title={`${project.appName} opens on a new page`}
