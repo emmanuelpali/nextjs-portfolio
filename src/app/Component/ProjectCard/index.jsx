@@ -9,15 +9,11 @@ import "./index.css";
 
 export default function ProjectCard() {
 	const { display, handleDisplay } = useContext(MyContext);
-	const [isMac, setisMac] = useState(Boolean);
-	useEffect(() => {
-		// Check for window availability before accessing it
-		setisMac(
-			window && window.navigator.platform.toUpperCase().indexOf("MAC") >= 0
-		);
-
-		// Clean up any resources if necessary
-	}, []);
+  const [isMac, setisMac] = useState(Boolean)
+  useEffect(() => {
+    // Check for window availability before accessing it
+   setisMac(window && navigator.platform.toUpperCase().indexOf('MAC') >= 0)
+  }, []);
 	return (
 		<>
 			{data.map((project) => (
@@ -61,38 +57,38 @@ export default function ProjectCard() {
 								</div>
 							</div>
 							<>
-								{display.includes(project.id) && (
-									<div className="details">
-										<div className="details_contents">
-											<Looper speed="22" direction="left">
-												{project.pictures.map((image, idx) => (
-													<div className="looper_img" key={idx}>
-														<Image
-															className="img-fluid"
-															src={image}
-															alt="Picture of the project"
-															style={{ objectFit: "cover" }}
-														/>
-													</div>
-												))}
-											</Looper>
-										</div>
-										<div className="looper_links">
-											<button
-												className="btn"
-												onClick={() => handleDisplay(project.id)}>
-												Close
-											</button>
-											<a
-												href={project.webAddress}
-												title={`${project.appName} opens on a new page`}
-												target="_blank"
-												className="btn">
-												Visit Site
-											</a>
-										</div>
+							{display.includes(project.id) && (
+								<div className="details">
+									<div className="details_contents">
+										<Looper speed="22" direction="left">
+											{project.pictures.map((image, idx) => (
+												<div className="looper_img" key={idx}>
+													<Image
+														className="img-fluid"
+														src={image}
+														alt="Picture of the project"
+														style={{ objectFit: "cover" }}
+													/>
+												</div>
+											))}
+										</Looper>
 									</div>
-								)}
+									<div className="looper_links">
+										<button
+											className="btn"
+											onClick={() => handleDisplay(project.id)}>
+											Close
+										</button>
+										<a
+											href={project.webAddress}
+											title={`${project.appName} opens on a new page`}
+											target="_blank"
+											className="btn">
+											Visit Site
+										</a>
+									</div>
+								</div>
+							)}
 							</>
 						</div>
 					</div>
