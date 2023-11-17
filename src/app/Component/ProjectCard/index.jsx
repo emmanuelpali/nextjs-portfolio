@@ -61,6 +61,7 @@ export default function ProjectCard() {
 									)}
 								</div>
 							</div>
+							<>
 							{display.includes(project.id) && (
 								<div className="details">
 									<div className="details_contents">
@@ -93,6 +94,7 @@ export default function ProjectCard() {
 									</div>
 								</div>
 							)}
+							</>
 						</div>
 					</div>
 				</Reveal>
