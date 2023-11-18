@@ -28,7 +28,7 @@ const portfolioContent = [
       "Behold the exquisite restaurant website I crafted for my client. A captivating single-page React application that seamlessly merges elegance and functionality. The goal was to develop a site that allowed customers to view the menu. ",
       description:
       "I used Bootstrap, the fluidity of Framer Motion, and the personalized touch of vanilla CSS",
-    webAddress: "https://rs-ashen.vercel.app/",
+    webAddress: "https://rscuisine.com",
     pictures: [rs,rs1,rs2,rs3]
   },
   {
