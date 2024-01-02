@@ -20,26 +20,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  cursor: none;
 }
 
 html {
   background: #02021e;
+  cursor: none;
 }
 
 body {
   background-color: #02021e;
-  overflow-x: hidden;
-  width: 100vw;
-  height: 100vh;
-  margin: 0 auto;
-  display: grid;
+  /* overflow-x: hidden; */
   justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  cursor: none;
+
 }
 
-.container{
-  width: 80vw;
-  margin: 0 auto;
-  height: 100vh;
-  padding: 20px;
+
+h1, h2, h3, h4, button, a, .btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #f9d6ac;
+}
+
+a:visited {
+  color: #f9d6ac;
 }

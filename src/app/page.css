@@ -3,19 +3,12 @@ body {
   transition: all 1s ease;
 }
 
-section {
-  min-height: 80vh;
-}
 .home {
-  margin: 0 auto;
-  width: 80vw;
+  margin: 0;
   height: 80vh;
   position: relative;
 }
 
-section h2 {
-  color: #f9d6ac;
-}
 
 .stack{
   position: relative;
@@ -24,3 +17,8 @@ section h2 {
 }
 
 
+.container{
+  padding: 0;
+  margin: 0 auto;
+  height: 100%;
+}

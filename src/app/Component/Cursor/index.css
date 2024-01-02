@@ -10,8 +10,8 @@
     pointer-events: none;
 }
 
-@media only screen and (width <= 600px) {
-    .cursor{
-        display: none;
+@media not screen and (any-pointer: fine) {
+    .cursor {
+      display: none;
     }
-}
+  }

@@ -1,3 +1,4 @@
+"use client";
 import { useRef, useState } from "react";
 import "./index.css";
 import { useCallback } from "react";

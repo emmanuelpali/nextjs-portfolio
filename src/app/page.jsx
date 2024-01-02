@@ -15,17 +15,14 @@ import  Contact  from './Component/Contact';
 export default function Home() {
 
   return (
-    <div >
+    <>
       <ProgressBar />
-      <Reveal>
       <section className='home'>
-        <Cursor />
         <Label />
         <CircleRec />
         <Ellipse zIndex="1" top={20} left={35} size="80px" background="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 5.73%, #FFF 100%)"/>
         <Ellipse zIndex="1" top={55} left={60} size="80px" background="linear-gradient(180deg, rgba(0, 0, 0, 0.25) 5.73%, #FFF 100%)"/>
       </section>
-      </Reveal>
       <Reveal>
         <Projects />
       </Reveal>
@@ -44,9 +41,9 @@ export default function Home() {
       <ParallaxText baseVelocity={-3}>Node</ParallaxText>
       <ParallaxText baseVelocity={3}>C#</ParallaxText>
       </section>
-      <footer className='mx-auto'>
+      {/* <footer className='mx-auto'>
         <Contact />
-      </footer>
-    </div>
+      </footer> */}
+    </>
   )
 }
