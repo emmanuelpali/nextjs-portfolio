@@ -22,6 +22,19 @@
     opacity: 0;
     animation: smoothappear 1s ease-in-out forwards;
 }
+
+.textCenter {
+    color: #f9d6ac;
+    margin: 0 auto;
+}
+
+.projectText {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+}
+
 .looperWrapper {
     margin-bottom: 20px;
 }
@@ -29,14 +42,6 @@
 .looper_img {
     height: 400px;
     width: 100%; 
-
-}
-
-.projectText {
-    margin: 0 auto;
-    max-width: 600px;
-    text-align: justify;
-    padding: 1rem;
 }
 
 .btn {
@@ -59,5 +64,4 @@
     transform: translateY(-1px);
     background-color: #090943;
     border: none;
-    border: 1px solid white;
 }

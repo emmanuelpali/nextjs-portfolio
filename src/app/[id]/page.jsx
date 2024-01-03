@@ -26,7 +26,7 @@ const page = async ({params}) => {
 										))}
 							</Looper>
 					</div>
-					<h3 className="text-center">{project.appName}</h3>
+					<h3 className={styles.textCenter}>{project.appName}</h3>
 					<div className={styles.projectText}>
 							<div className="">{project.shortDescription}</div>
 							<div className="description">{project.description}</div>
