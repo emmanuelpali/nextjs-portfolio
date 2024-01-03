@@ -8,9 +8,9 @@ import Link from "next/link";
 
 export default function ProjectCard() {
 	return (
-		<div className="row gap-3">
+		<div className="row gap-1">
 			{data.map((project) => (
-				<div key={project.id} className={`${styles.cover} col-md-4`}>
+				<div key={project.id} className={`${styles.cover} col-md-5`}>
 					<Reveal >
 							<div className={styles.projectcard}>
 								<div className={styles.imagecontainer}>

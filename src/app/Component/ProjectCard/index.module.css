@@ -1,7 +1,6 @@
 .cover {
     margin: 0 auto;
-    margin-top: 2rem;
-    padding: 0 1rem;
+    margin-top: 3rem;
 }
 
 .projectcard {
@@ -45,16 +44,23 @@
 }
 
 .projectcard .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin-top: 1.5rem;
     background-color: #02021e;
     margin-top: 5px;
     padding: 5px 10px;
     text-decoration: none;
     border: 1px solid #f9d6ac;
+    transition: transform 0.2s ease-in-out;
+    color: #f9d6ac;
+    cursor: none;
 }
 
 .projectcard .btn:hover {
-    color: white;
-    scale: 1.1;
+    transform: translateY(-1px);
     background-color: #090943;
     border: none;
 }
