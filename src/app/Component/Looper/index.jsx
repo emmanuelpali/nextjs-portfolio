@@ -43,7 +43,7 @@ export default function Looper({ speed, direction, children }){
       return () => {
         window.removeEventListener("resize", setupInstances);
       };
-    }, [setupInstances]);
+    }, [looperInstance, setupInstances]);
 
     return (
         <div className="looper" ref={outerRef}>
