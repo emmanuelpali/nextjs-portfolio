@@ -1,8 +1,6 @@
 "use client";
-import { useRef, useState } from "react";
+import { useRef, useState, useCallback, useEffect } from "react";
 import "./index.css";
-import { useCallback } from "react";
-import { useEffect } from "react";
 
 export default function Looper({ speed, direction, children }){
     const [looperInstance, setLooperInstance] = useState(1);
@@ -32,7 +30,7 @@ export default function Looper({ speed, direction, children }){
             setLooperInstance(looperInstance + Math.ceil(parentWidth / width));
         }
         resetAnimation();
-    }, [looperInstance]);
+    }, []);
 
 
 
@@ -45,7 +43,7 @@ export default function Looper({ speed, direction, children }){
       return () => {
         window.removeEventListener("resize", setupInstances);
       };
-    }, [looperInstance, setupInstances]);
+    }, [setupInstances]);
 
     return (
         <div className="looper" ref={outerRef}>
